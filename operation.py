@@ -3,6 +3,9 @@ b = int(input("Enter second number: "))
 
 add = a + b
 sub = a - b
-
-print("Addition: {a} + {b} = {addition}")
-print("Subtraction: {a} - {b} = {subtraction}")
+mul = a * b
+div = a / b
+print("Addition of two numbers is:",add)
+print("Subtraction of two numbers is:",sub)
+print("Multiplication of two numbers is:",mul)
+print("Division of two numbers is:",div)
